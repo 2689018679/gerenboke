@@ -1,0 +1,314 @@
+@import "base.css";
+body{
+    background-color: #f1f1f1;
+}
+header{
+    width: 100%;
+    height: 74px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+header .linner{
+    width: 1120px;
+    height: 74px;
+    margin: 0 auto;
+}
+header .left{
+    float: left;
+    margin-left: 20px;
+}
+header .left h3{
+    font-size: 40px;
+    font-family: "华文彩云";
+    line-height: 74px;
+    color: #444;
+}
+header .right{
+    display: flex;
+    float: right;
+}
+header .right .hot{
+    color: #0077dd;
+}
+header .right li{
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #444;
+    line-height: 32px;
+    cursor:pointer;
+}
+header .right li:hover{
+    color: #0077dd;
+}
+main{
+    width: 1120px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+main .left{
+    width: 784px;
+    float: left;
+}
+main .left h2{
+    font-size: 14px;
+    line-height: 38px;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    background-color: #fff;
+}
+main .box{
+    padding: 0 30px 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+main .box h1{
+    font-size: 24px;
+    font-weight: normal;
+    padding: 20px 0;
+    color: #333;
+}
+main .box .top{
+    display: flex;
+}
+main .box .top li{
+    font-size: 15px;
+    color: #555;
+    margin-right: 20px;
+}
+main .box .brief{
+    color: #888888;
+    border: 1px solid #F3F3F3;
+    padding: 10px;
+    margin: 20px auto 15px;
+    line-height: 23px;
+    background: none repeat 0 0 #F6F6F6;
+}
+main .box .brief p span{
+    color: #333;
+}
+main .box p{
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5em;
+}
+main .left h4{
+    width: 160px;
+    margin: 20px auto;
+    background-color: #E2523A;
+    color: #fff;
+    box-shadow: 1px 2px 6px 0px rgba(0,0,0,.2);
+    border-radius: 3px;
+    line-height: 40px;
+    text-align: center;
+}
+main .left h5{
+    font-size: 15px;
+    color: #555;
+    font-weight: normal;
+    margin:10px 0;
+}
+main .left h6{
+    line-height: 40px;
+    font-size: 14px;
+    padding-left: 10px;
+    border-bottom: 2px solid #000;
+    color: #000;
+}
+main .right{
+    width: 313px;
+    float: right;
+}
+main .right .top{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+main .right .top li{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    line-height: 42px;
+    box-sizing: border-box;
+    border: 1px solid #DDD;
+    cursor: pointer;
+}
+main .right .top .hot{
+    background-color: #fff;
+    border-bottom: none;
+}
+main .right .top li i{
+    font-size: 17px;
+    color: #2B9BD6;
+}
+main .right .topbox1{
+    width: 100%;
+    height: 573px;
+    overflow: hidden;
+    position: relative;
+}
+main .right .topbox{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    position: absolute;
+    top: 0;
+}
+main .right .topbox h3{
+    font-size: 23px;
+    color: #444;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+main .right .topbox li{
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 0;
+}
+main .right .topbox li:hover .lileft img{
+    transform: scale(1.2);
+}
+main .right .topbox li .lileft{
+    width: 111px;
+    height: 75px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+main .right .topbox li .lileft img{
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+}
+main .right .topbox li .liright{
+    margin-left: 20px
+}
+main .right .topbox li .liright p{
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5em;
+    cursor: pointer;
+}
+main .right .topbox li .liright p:hover{
+    color: #0077dd;
+}
+main .right .topbox li .liright h4{
+    font-size: 12px;
+    color: #9A9A9A;
+    margin-top: 12px;
+    font-weight: normal;
+}
+main .right .topimg{
+    width: 100%;
+    height: 210px;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    margin: 20px 0;
+}
+main .right .topimg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+main .right .box{
+    width: 100%;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+main .right .box .box1{
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+#topimg{
+    width: 102px;
+    height: 102px;
+    float: left;
+    overflow: hidden;
+    margin: 0 10px 0px 0;
+}
+main .right .box .box1 p{
+    color: #9a9a9a;
+    line-height: 26px;
+}
+main .right .box h2{
+    background: #f8f8f8;
+    font-size: 15px;
+    padding-left: 20px;
+    border-bottom: 1px solid #ddd;
+    height: 38px;
+    line-height: 38px;
+}
+main .right .box .box1 h3{
+    color: #3f3f3f;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 2em;
+}
+main .right .box .box2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top:1px solid #a6a6a6;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+main .right .box .box3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:  1px solid #a6a6a6;
+}
+main .right .box .box3 i{
+    font-size: 26px;
+    color: #a6a6a6;
+}
+main .right .box1 ul{
+    width: 100%;
+    overflow: hidden;
+}
+main .right .box1 li{
+    width: 50%;
+    height: 40px;
+    float: left;
+    border:  1px solid #ddd;
+    box-sizing: border-box;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+main .right .box1 li:hover{
+    background-color: #0077dd;
+    color: #fff;
+}
+main .right .box1 div{
+    width: 48%;
+    float: left;
+    margin: 2px;
+    overflow: hidden;
+}
+main .right .box1 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: all .5s;
+}
+main .right .box1 div:hover img{
+    transform: scale(1.2);
+}

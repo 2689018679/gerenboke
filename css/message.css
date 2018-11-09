@@ -1,0 +1,458 @@
+@import "base.css";
+body{
+    background-color: #f1f1f1;
+}
+header{
+    width: 100%;
+    height: 74px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+header .linner{
+    width: 1120px;
+    height: 74px;
+    margin: 0 auto;
+}
+header .left{
+    float: left;
+    margin-left: 20px;
+}
+header .left h3{
+    font-size: 40px;
+    font-family: "华文彩云";
+    line-height: 74px;
+    color: #444;
+}
+header .right{
+    display: flex;
+    float: right;
+}
+header .right .hot{
+    color: #0077dd;
+}
+header .right li{
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #444;
+    line-height: 32px;
+    cursor:pointer;
+}
+header .right li:hover{
+    color: #0077dd;
+}
+main{
+    width: 1120px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+main .left{
+    width: 784px;
+    float: left;
+}
+main .left>h2{
+    font-size: 14px;
+    line-height: 38px;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    background-color: #fff;
+}
+main .message{
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    padding:20px;
+}
+main .message .top{
+    overflow: hidden;
+}
+main .message .top .left{
+    width: 60px;
+    height: 60px;   
+    border-radius: 5px;
+    overflow: hidden;
+    float: left;
+}
+main .message .top .left img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+main .message .top .right{
+    float: right;
+    width: 660px;
+    position: relative;
+}
+main .message .top .right .bq{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color:#333;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 0 20px;
+    position: absolute;
+    bottom:0;
+    text-align: end;
+}
+main .message .top .right .bq>span{
+    cursor: pointer;
+}
+main .message .top .right .bq>span:first-child{
+    display: block;
+    float: left;
+}
+main .message .top .right textarea{
+    resize:none;
+    width: 660px;
+    height: 150px;
+    display: block;
+    float: right;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 8px;
+}
+main .message .bottom{
+    overflow: hidden;
+}
+main .message .bottom h2{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 3px 6px;
+    background-color: rgba(0,0,0,.04);
+    border: 1px solid #ccc;
+    text-shadow: 0 1px 0 #fff;
+    border-radius: 5px;
+    color: #908d8d;
+    font-size: 14px;
+    font-weight: normal;
+    float: right;
+    cursor: pointer;
+}
+main .message .bottom h2:first-child{
+    float: left;
+}
+main .message .bottom h2:last-child{
+    margin-right: 15px;
+}
+
+main .left ul{
+    width: 100%;
+    box-sizing: border-box;
+    padding:0 20px;
+    background-color: #fff;
+}
+main .left ul li{
+    width: 100%;
+    box-sizing: border-box;
+    padding:20px 0;
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+}
+main .left li .left{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+    float: left;
+}
+main .left li .left img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+main .left li .right{
+    width: 680px;
+    height: 100%;
+    float: right;  
+
+}
+main .left li h3{
+    font-size: 14px;
+    color: #d32;
+    font-weight: 600;
+}
+main .left li pre,main .left li h4{
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+}
+main .left li i{
+    padding:0 10px;
+    cursor: pointer;
+}
+main .right{
+    width: 313px;
+    float: right;
+}
+main .right .top{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+main .right .top li{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    line-height: 42px;
+    box-sizing: border-box;
+    border: 1px solid #DDD;
+    cursor: pointer;
+}
+main .right .top .hot{
+    background-color: #fff;
+    border-bottom: none;
+}
+main .right .top li i{
+    font-size: 17px;
+    color: #2B9BD6;
+}
+main .right .topbox1{
+    width: 100%;
+    height: 573px;
+    overflow: hidden;
+    position: relative;
+}
+main .right .topbox{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    position: absolute;
+    top: 0;
+}
+main .right .topbox h3{
+    font-size: 23px;
+    color: #444;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+main .right .topbox li{
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 0;
+}
+main .right .topbox li:hover .lileft img{
+    transform: scale(1.2);
+}
+main .right .topbox li .lileft{
+    width: 111px;
+    height: 75px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+main .right .topbox li .lileft img{
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+}
+main .right .topbox li .liright{
+    margin-left: 20px
+}
+main .right .topbox li .liright p{
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5em;
+    cursor: pointer;
+}
+main .right .topbox li .liright p:hover{
+    color: #0077dd;
+}
+main .right .topbox li .liright h4{
+    font-size: 12px;
+    color: #9A9A9A;
+    margin-top: 12px;
+    font-weight: normal;
+}
+main .right .topimg{
+    width: 100%;
+    height: 210px;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    margin: 20px 0;
+}
+main .right .topimg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+main .right .box{
+    width: 100%;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+main .right .box .box1{
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+#topimg{
+    width: 102px;
+    height: 102px;
+    float: left;
+    overflow: hidden;
+    margin: 0 10px 0px 0;
+}
+main .right .box .box1 p{
+    color: #9a9a9a;
+    line-height: 26px;
+}
+main .right .box h2{
+    background: #f8f8f8;
+    font-size: 15px;
+    padding-left: 20px;
+    border-bottom: 1px solid #ddd;
+    height: 38px;
+    line-height: 38px;
+}
+main .right .box .box1 h3{
+    color: #3f3f3f;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 2em;
+}
+main .right .box .box2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top:1px solid #a6a6a6;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+main .right .box .box3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:  1px solid #a6a6a6;
+}
+main .right .box .box3 i{
+    font-size: 26px;
+    color: #a6a6a6;
+}
+main .right .box1 ul{
+    width: 100%;
+    overflow: hidden;
+}
+main .right .box1 li{
+    width: 50%;
+    height: 40px;
+    float: left;
+    border:  1px solid #ddd;
+    box-sizing: border-box;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+main .right .box1 li:hover{
+    background-color: #0077dd;
+    color: #fff;
+}
+main .right .box1 div{
+    width: 48%;
+    float: left;
+    margin: 2px;
+    overflow: hidden;
+}
+main .right .box1 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: all .5s;
+}
+main .right .box1 div:hover img{
+    transform: scale(1.2);
+}
+.login,.register{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.login1{
+    width: 400px;
+    box-sizing: border-box;
+    padding: 5px 20px 30px;
+    background-color: #fff; 
+    border-radius: 8px;
+}
+.login2,.register2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login1 h2{
+    font-size: 14px;
+    color: #363940;
+    border-bottom: 1px solid #e8eaec;
+    padding:14px 0;
+    position: relative;
+}
+.login1 h2>i{
+    position: absolute;
+    right: 0;
+    top: 13px;
+    cursor: pointer;
+}
+.login1 h3{
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+    margin:5px 0;
+}
+.login1 h3>span{
+    color: #f55845;
+    padding-right: 6px;
+}
+.login1 input{
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 10px 3px;
+    margin: 5px 0;
+}
+.login1 button{
+    width: 100%;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    background: #19be6b;
+    margin-top:20px;
+}
+.login1 h4{
+    color: #2a8bec;
+    font-size: 14px;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+}
+.login1 h4>span,.login1 button{
+    cursor: pointer;
+}
